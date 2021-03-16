@@ -27,6 +27,7 @@ public class DoLogin implements Task {
         actor.attemptsTo(
                 Enter.theValue(username).into(LoginForm.USERNAME_FIELD),
                 Enter.theValue(password).into(LoginForm.PASSWORD_FIELD),
+                Click.on(LoginForm.REMEMBER_ME),
                 Click.on(LoginForm.LOGIN_BUTTON)
         );
     }

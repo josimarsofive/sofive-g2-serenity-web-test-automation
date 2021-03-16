@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login into the application" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-01-26T22:54:47" hostname="DESKTOP-CVJV90J" time="36.641">
+<testsuite name="Login into the application" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-03-16T13:43:55" hostname="ip-192-168-1-85.ec2.internal" time="14.874">
   <properties/>
-  <testcase name="Succesfull login" classname="Login into the application" time="34.377">
+  <testcase name="Succesfull login" classname="Login into the application" time="14.625">
     <failure message="java.lang.AssertionError: &#10;Expected: &quot;$17,800&quot;&#10;     but: was &quot;$350%7&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: &quot;$17,800&quot;
      but: was &quot;$350%7&quot;
@@ -12,11 +12,11 @@ Expected: &quot;$17,800&quot;
 	at ✽.he should have access to manage his account(file:src/test/resources/features/login/login.feature:6)
 </failure>
   </testcase>
-  <testcase name="Remember things" classname="Login into the application" time="0.05"/>
+  <testcase name="Remember things" classname="Login into the application" time="0.017"/>
   <system-out><![CDATA[Feature: Login into the application
 
   Scenario: Succesfull login                         ?[90m# src/test/resources/features/login/login.feature:3?[0m
-17:54:47.414 [Test worker] INFO   - 
+08:43:55.787 [Test worker] INFO   - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -26,8 +26,8 @@ Expected: &quot;$17,800&quot;
 Succesfull login(login-into-the-application;succesfull-login)
 -------------------------------------------------------------------
     ?[32mGiven ?[0m?[32m?[0m?[32m?[1mJosimar?[0m?[32m has an active account?[0m              ?[90m# LoginStepDefinitions.josimarHasAnActiveAccount(String)?[0m
-17:54:50.135 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
-17:54:50.136 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+08:43:56.611 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+08:43:56.611 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors;\n, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
     ?[32mWhen ?[0m?[32mhe sends their valid credentials?[0m            ?[90m# LoginStepDefinitions.heSendsTheirValidCredentials()?[0m
     ?[31mThen ?[0m?[31mhe should have access to manage his account?[0m ?[90m# LoginStepDefinitions.heShouldHaveAccessToManageHisAccount()?[0m
       ?[31mjava.lang.AssertionError: 
@@ -41,7 +41,7 @@ Expected: "$17,800"
 ?[0m
 
   Scenario: Remember things                   ?[90m# src/test/resources/features/login/login.feature:8?[0m
-17:55:23.992 [Test worker] INFO   - 
+08:44:10.632 [Test worker] INFO   - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -54,14 +54,13 @@ Remember things(login-into-the-application;remember-things)
     ?[32mWhen ?[0m?[32mhe tries to remember ?[0m?[32m?[1mFoo?[0m             ?[90m# StepDefinitions1.he_tries_to_remember_Foo(String)?[0m
     ?[32mThen ?[0m?[32mhe should get Foo?[0m                    ?[90m# StepDefinitions2.he_should_get_Foo()?[0m
 ]]></system-out>
-  <system-err><![CDATA[ene 26, 2021 5:54:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 48554
+  <system-err><![CDATA[mar. 16, 2021 8:43:56 A.?M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACI?N: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 27244
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1611701698.984][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-ene 26, 2021 5:55:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMACIÓN: Detected dialect: W3C
+mar. 16, 2021 8:44:01 A.?M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACI?N: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

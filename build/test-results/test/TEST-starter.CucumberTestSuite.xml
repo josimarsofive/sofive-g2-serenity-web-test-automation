@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="starter.CucumberTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-CVJV90J" time="0.0">
+<testsuite name="starter.CucumberTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ip-192-168-1-85.ec2.internal" time="0.0">
   <properties/>
-  <system-out><![CDATA[17:54:46.820 [Test worker] INFO   - 
+  <system-out><![CDATA[08:43:55.644 [Test worker] INFO   - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -18,8 +18,8 @@
  Learn Serenity BDD online at https://www.serenitydojo.net                           
 -------------------------------------------------------------------------------------
 
-17:54:46.840 [Test worker] INFO   - Test Suite Started: Login into the application
-17:55:23.410 [Test worker] ERROR  - 
+08:43:55.650 [Test worker] INFO   - Test Suite Started: Login into the application
+08:44:10.567 [Test worker] ERROR  - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
  (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
@@ -29,9 +29,9 @@
 
 Succesfull login
 --------------------------------------------------------------------------
-17:55:23.969 [Test worker] ERROR  -     Test failed at step: Then should be '$17,800'
-17:55:23.970 [Test worker] ERROR  -     Expected: "$17,800" but: was "$350%7"
-17:55:24.031 [Test worker] INFO   - 
+08:44:10.625 [Test worker] ERROR  -     Test failed at step: Then should be '$17,800'
+08:44:10.626 [Test worker] ERROR  -     Expected: "$17,800" but: was "$350%7"
+08:44:10.646 [Test worker] INFO   - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -42,7 +42,7 @@ Succesfull login
 Remember things
 ----------------------------------------------------------------------------
 ]]></system-out>
-  <system-err><![CDATA[ene 26, 2021 5:54:47 PM cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
+  <system-err><![CDATA[mar. 16, 2021 8:43:55 A.?M. cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
 ADVERTENCIA: Loading deprecated ObjectFactory from runtime via reflection: cucumber.runtime.SerenityObjectFactory
 ]]></system-err>
 </testsuite>

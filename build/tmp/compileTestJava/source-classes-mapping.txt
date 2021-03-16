@@ -4,12 +4,12 @@ starter/conf/SessionVariables.java
  starter.conf.SessionVariables
 starter/stepdefinitions/SearchOnDuckDuckGoStepDefinitions.java
  starter.stepdefinitions.SearchOnDuckDuckGoStepDefinitions
-starter/stepdefinitions/LoginStepDefinitions.java
- starter.stepdefinitions.LoginStepDefinitions
-starter/stepdefinitions/StepDefinitions2.java
- starter.stepdefinitions.StepDefinitions2
 starter/ui/search/SearchForm.java
  starter.ui.search.SearchForm
+starter/stepdefinitions/StepDefinitions2.java
+ starter.stepdefinitions.StepDefinitions2
+starter/stepdefinitions/LoginStepDefinitions.java
+ starter.stepdefinitions.LoginStepDefinitions
 starter/questions/CreditAvailable.java
  starter.questions.CreditAvailable
 starter/ui/search/SearchFor.java
@@ -26,15 +26,15 @@ starter/ui/dashboard/FinancialOverview.java
  starter.ui.dashboard.FinancialOverview
 starter/ui/search/SearchResultList.java
  starter.ui.search.SearchResultList
-starter/navigation/DuckDuckGoHomePage.java
- starter.navigation.DuckDuckGoHomePage
 starter/tasks/login/DoLogin.java
  starter.tasks.login.DoLogin
+starter/navigation/DuckDuckGoHomePage.java
+ starter.navigation.DuckDuckGoHomePage
 starter/ui/login/LoginForm.java
  starter.ui.login.LoginForm
-starter/matchers/StringContainsIgnoringCase.java
- starter.matchers.StringContainsIgnoringCase
 starter/navigation/NavigateTo.java
  starter.navigation.NavigateTo
+starter/matchers/StringContainsIgnoringCase.java
+ starter.matchers.StringContainsIgnoringCase
 starter/stepdefinitions/StepDefinitions1.java
  starter.stepdefinitions.StepDefinitions1
